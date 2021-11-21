@@ -1,0 +1,2 @@
+execute if entity @e[type=creeper,tag=creeper-chan] if entity @e[type=area_effect_cloud,tag=creeper-chan] run schedule function boss_main:bosses/creeper-chan/attacks/reloop 1t
+execute unless entity @e[type=creeper,tag=creeper-chan] unless entity @e[type=item,nbt={Item:{id:"minecraft:structure_void",tag:{Tags:["boss_is_dead"]}}}] as @e[type=area_effect_cloud,tag=creeper-chan] at @s run function boss_main:bosses/creeper-chan/attacks/reborn

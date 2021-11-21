@@ -1,0 +1,6 @@
+effect give @a[nbt={Inventory:[{Slot:101b,tag:{Tags:["creeper-chan_pants"]}}]},nbt=!{ActiveEffects:[{Id:10b}]}] regeneration 3 1 true
+effect give @a[nbt={Inventory:[{Slot:100b,tag:{Tags:["aerogel_boots"]}}]}] slow_falling 1 0 true
+
+execute at @a[nbt={Inventory:[{Slot:100b,tag:{Tags:["sky_walker"]}}]},predicate=!boss_main:sneak] if block ~ ~-1 ~ #boss_main:empty positioned ~ ~-1 ~ unless entity @e[type=shulker,tag=sky_walker,distance=..2] run summon shulker ~ ~ ~ {Tags:["sky_walker"],ActiveEffects:[{Id:14,Duration:99999,ShowParticles:0b},{Id:20,Duration:99999,ShowParticles:0b}],Health:2,Silent:1,NoAI:1,DeathLootTable:"qsdf"}
+execute at @a[nbt={Inventory:[{Slot:100b,tag:{Tags:["sky_walker"]}}]},predicate=!boss_main:sneak] if block ~ ~-1 ~ #boss_main:empty positioned ~ ~-1 ~ as @e[type=shulker,tag=sky_walker,distance=..2] run tp @s ~ ~ ~
+execute at @a[nbt={Inventory:[{Slot:100b,tag:{Tags:["sky_walker"]}}]},predicate=!boss_main:sneak] if block ~ ~-1 ~ #boss_main:empty positioned ~ ~-1 ~ run particle dust 1 1 1 5 ~ ~ ~ 0.2 0.2 0.2 0.1 3

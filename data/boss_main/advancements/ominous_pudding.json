@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "El Psy Congroo",
+            "color": "#55FF55"
+        },
+        "description": {
+            "text": "Defeat the Ominous Pudding, SERN's Deadly Threat!"
+        },
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"ominous_pudding\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "boss_main:players/ominous_pudding"
+        ],
+        "experience": 1000
+    },
+    "parent": "boss_main:boss"
+}

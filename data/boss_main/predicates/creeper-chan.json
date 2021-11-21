@@ -1,0 +1,101 @@
+[
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "offsetY": -1,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "block": "minecraft:lime_bed"
+        }
+      }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": -1,
+        "predicate": {
+          "block": {
+            "block": "minecraft:lime_bed"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": -1,
+        "predicate": {
+          "block": {
+            "block": "minecraft:lime_bed"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+          "block": {
+            "block": "minecraft:lime_bed"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+          "block": {
+            "block": "minecraft:tnt"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+          "block": {
+            "block": "minecraft:lime_bed"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetY": -1,
+        "offsetZ": 1,
+        "predicate": {
+          "block": {
+            "block": "minecraft:lime_bed"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": 1,
+        "predicate": {
+          "block": {
+            "block": "minecraft:lime_bed"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": 1,
+        "predicate": {
+          "block": {
+            "block": "minecraft:lime_bed"
+          }
+        }
+      }
+  ]

@@ -1,0 +1,1 @@
+effect give @a[tag=flappator] levitation 10 0 true

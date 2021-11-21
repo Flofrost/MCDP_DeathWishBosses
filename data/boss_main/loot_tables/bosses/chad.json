@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "air"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"strong_strength\",display:{Name:'{\"text\":\"Stronk Potion\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:structure_void",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Tags:[\"boss_is_dead\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

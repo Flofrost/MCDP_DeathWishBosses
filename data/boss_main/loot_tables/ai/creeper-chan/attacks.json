@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "tnt"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "ender_pearl"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "potion"
+                }
+            ]
+        }
+    ]
+}

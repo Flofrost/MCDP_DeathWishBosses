@@ -1,0 +1,76 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "creeper_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag":"{display:{Name:'{\"text\":\"One of many Creeper-chan\\'s Simps\",\"color\":\"green\",\"bold\":true,\"italic\":false}'},EntityTag:{ignited:1b,ExplosionRadius:7b,NoAI:1,ActiveEffects:[{Id:11,Duration:29,Amplifier:10,ShowParticles:0b}]}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag":"{display:{color:30720,Name:'{\"text\":\"Creeper-chan\\'s Bra\",\"color\":\"green\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"Sturdy clothing to support those two fellas.\",\"color\":\"gray\"}']},AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:0.5,Operation:2,UUID:[I;383259499,803819187,-1914724399,377493360],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "leather_leggings",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag":"{display:{color:3815994,Name:'{\"text\":\"Creeper-chan\\'s Pantyhose\",\"color\":\"green\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"Gotta keep these thighs warm :3\",\"color\":\"gray\"}','','','{\"text\":\"Regeration when worn.\",\"color\":\"blue\"}']},AttributeModifiers:[{}],Tags:[\"boss_gear\",\"creeper-chan_pants\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag":"{display:{color:190210,Name:'{\"text\":\"Creeper-chan\\'s Socks\",\"color\":\"green\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"Cute socks to better chase my Senpai~\",\"color\":\"gray\"}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:1,Operation:2,UUID:[I;383259499,803819187,-1914724399,377493360],Slot:\"feet\"}]}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:structure_void",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Tags:[\"boss_is_dead\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

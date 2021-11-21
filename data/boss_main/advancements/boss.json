@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Death Wish Bosses",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Bosses to spice up your Minecraft experience!",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/crying_obsidian.png"
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

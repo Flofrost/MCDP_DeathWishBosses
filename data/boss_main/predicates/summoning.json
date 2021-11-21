@@ -1,0 +1,33 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "boss_main:zombus"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "boss_main:karbonoa"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "boss_main:calcium_boomer"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "boss_main:ominous_pudding"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "boss_main:chad"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "boss_main:creeper-chan"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "boss_main:flappator"
+      }
+    ]
+  }

@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ice"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:snowball"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag":"{CustomPotionColor:1680383}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

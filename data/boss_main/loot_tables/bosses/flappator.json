@@ -1,0 +1,67 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "empty",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "elytra"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "elytra",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Unbreakable:1}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "diamond_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Aerogel Boots\"}',Lore:['{\"text\":\"Fall Damage is a worry of the past.\",\"color\":\"gray\"}']},Tags:[\"boss_gear\",\"aerogel_boots\"],Enchantments:[{}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "diamond_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Sky Walker\"}',Lore:['{\"text\":\"Who needs floor anyway?\",\"color\":\"gray\"}','','','{\"text\":\"Walk on air and liquids. Crouch to disable.\",\"color\":\"blue\"}']},Tags:[\"boss_gear\",\"sky_walker\"],Enchantments:[{}]}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Tags:[\"boss_is_dead\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

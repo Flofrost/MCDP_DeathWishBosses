@@ -1,0 +1,3 @@
+execute as @a[tag=flappator] at @e[type=phantom,tag=flappator] run summon vex ~ ~ ~ {Health:10,Attributes:[{Name:"generic.follow_range",Base:100}],ActiveEffects:[{Id:20,Amplifier:0,Duration:999999,ShowParticles:0b}]}
+execute as @a[tag=flappator] at @e[type=phantom,tag=flappator] run summon vex ~ ~ ~ {Health:10,Attributes:[{Name:"generic.follow_range",Base:100}],ActiveEffects:[{Id:20,Amplifier:0,Duration:999999,ShowParticles:0b}]}
+execute as @a[tag=flappator] at @e[type=phantom,tag=flappator] run summon vex ~ ~ ~ {Health:10,Attributes:[{Name:"generic.follow_range",Base:100}],ActiveEffects:[{Id:20,Amplifier:0,Duration:999999,ShowParticles:0b}]}
