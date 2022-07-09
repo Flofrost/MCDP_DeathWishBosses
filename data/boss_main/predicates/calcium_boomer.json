@@ -1,1 +1,132 @@
-[]
+[
+    {
+        "condition": "location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "tnt"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 1,
+        "offsetY": -2,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "target"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 1,
+        "offsetY": -2,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "target"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": -1,
+        "offsetY": -2,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "target"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": -1,
+        "offsetY": -2,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "target"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 0,
+        "offsetY": -2,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "bone_block"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 1,
+        "offsetY": -2,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "bone_block"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 0,
+        "offsetY": -2,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "bone_block"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": -1,
+        "offsetY": -2,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "bone_block"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 0,
+        "offsetY": -2,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "bone_block"
+                ]
+            }
+        }
+    }
+]
