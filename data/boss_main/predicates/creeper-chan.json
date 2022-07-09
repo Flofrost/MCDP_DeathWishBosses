@@ -1,1 +1,119 @@
-[]
+[
+    {
+        "condition": "location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "tnt"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "lime_bed"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": -1,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "lime_bed"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "lime_bed"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "lime_bed"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "lime_bed"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "lime_bed"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": -1,
+        "offsetY": -1,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "lime_bed"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": -1,
+        "offsetY": -1,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "lime_bed"
+                ]
+            }
+        }
+    }
+]

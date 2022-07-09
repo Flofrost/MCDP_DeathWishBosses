@@ -1,1 +1,130 @@
-[]
+[
+    {
+        "condition": "location_check",
+        "predicate": {
+            "position": {
+                "y": {
+                    "min": 200,
+                    "max": 320
+                }
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "purpur_block"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "end_stone"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "end_stone"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": -1,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "end_stone"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "end_stone"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "end_stone"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "end_stone"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": -1,
+        "offsetY": -1,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "end_stone"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetX": -1,
+        "offsetY": -1,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "end_stone"
+                ]
+            }
+        }
+    }
+]

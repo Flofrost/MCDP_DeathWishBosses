@@ -5,12 +5,12 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 66,
                     "name": "air"
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 33,
                     "name": "potion",
                     "functions": [
                         {
@@ -18,6 +18,11 @@
                             "tag": "{Potion:\"strong_strength\",display:{Name:'{\"text\":\"Stronk Potion\"}'}}"
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "netherite_block"
                 }
             ]
         },
