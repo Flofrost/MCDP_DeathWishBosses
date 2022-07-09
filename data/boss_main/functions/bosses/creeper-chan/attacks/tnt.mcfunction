@@ -15,4 +15,4 @@ execute as @s[nbt={HandItems:[{id:"minecraft:tnt"}]}] run data modify entity @e[
 
 execute as @s[nbt={HandItems:[{id:"minecraft:ender_pearl"}]}] at @p run spreadplayers ~ ~ 3 5 false @s
 
-execute as @s[nbt={HandItems:[{id:"minecraft:potion"}]}] at @p run effect give @a slowness 5 2 true
+execute as @s[nbt={HandItems:[{id:"minecraft:potion"}]}] at @p run effect give @a[tag=creeper-chan] slowness 5 2 true
