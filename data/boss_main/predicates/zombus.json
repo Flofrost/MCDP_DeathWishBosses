@@ -1,13 +1,12 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "location": {
+[
+  {
+    "condition": "location_check",
+    "predicate": {
       "block": {
         "blocks": [
-          "minecraft:lilac"
+          "lilac"
         ]
       }
     }
   }
-}
+]
