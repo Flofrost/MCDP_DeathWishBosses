@@ -16,4 +16,4 @@ scoreboard players set dummyvar_boss_ominous_pudding time 20
 scoreboard players set dummyvar_boss_creeper-chan time 7
 scoreboard players set dummyvar_boss_flappator time 140
 
-tellraw @a [{"text":"Thanks for using "},{"text":"Death Wish Bosses","color":"#FF33FF","bold":true},{"text":" Datapack by "},{"text":"Flofrost","color":"#2299FF","bold":true},{"text":"!\nHave fun :) "},{"text":"This is a developpement branch, bugs are expected. ","color": "red"},{"text":"Help","color":"green","hoverEvent":{"action":"show_text","contents":"Click here for Help."},"clickEvent":{"action":"run_command","value":"/trigger boss_help"}}]
+tellraw @a [{"text":"Thanks for using "},{"text":"Death Wish Bosses","color":"#FF33FF","bold":true},{"text":" Datapack by "},{"text":"Flofrost","color":"#2299FF","bold":true},{"text":"!\nHave fun :) "},{"text":"Help","color":"green","hoverEvent":{"action":"show_text","contents":"Click here for Help."},"clickEvent":{"action":"run_command","value":"/trigger boss_help"}}]
