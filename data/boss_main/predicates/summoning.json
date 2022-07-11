@@ -28,6 +28,10 @@
       {
         "condition": "minecraft:reference",
         "name": "boss_main:flappator"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "boss_main:nautilus"
       }
     ]
   }

@@ -1,1 +1,1 @@
-execute store result bossbar karbonoa value run data get entity @s Health
+execute store result bossbar nautilus value run data get entity @s Health

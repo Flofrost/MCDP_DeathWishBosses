@@ -5,6 +5,7 @@ execute if entity @e[type=area_effect_cloud,tag=ominous_pudding] unless entity @
 execute if entity @e[type=area_effect_cloud,tag=chad] unless entity @e[type=iron_golem,tag=chad] run function boss_main:bosses/chad/death
 execute if entity @e[type=area_effect_cloud,tag=creeper-chan] unless entity @e[type=creeper,tag=creeper-chan] run function boss_main:bosses/creeper-chan/death
 execute if entity @e[type=area_effect_cloud,tag=flappator] unless entity @e[type=phantom,tag=flappator] run function boss_main:bosses/flappator/death
+execute if entity @e[type=area_effect_cloud,tag=nautilus] unless entity @e[type=phantom,tag=nautilus] run function boss_main:bosses/nautilus/death
 
 
 kill

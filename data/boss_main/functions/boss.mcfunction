@@ -5,3 +5,4 @@ execute as @s[tag=ominous_pudding] at @s run function boss_main:bosses/ominous_p
 execute as @s[tag=chad] at @s run function boss_main:bosses/chad/loop
 execute as @s[tag=creeper-chan] at @s run function boss_main:bosses/creeper-chan/loop
 execute as @s[tag=flappator] at @s run function boss_main:bosses/flappator/loop
+execute as @s[tag=nautilus] at @s run function boss_main:bosses/nautilus/loop

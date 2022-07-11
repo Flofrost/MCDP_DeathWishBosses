@@ -1,0 +1,123 @@
+[
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetY": -1,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "magma_block"
+        ]
+      } 
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 1,
+    "offsetY": -1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "prismarine"
+        ]
+      } 
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 1,
+    "offsetY": -1,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "prismarine"
+        ]
+      } 
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 1,
+    "offsetY": -1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "prismarine"
+        ]
+      } 
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetY": -1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "prismarine"
+        ]
+      } 
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetY": -1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "prismarine"
+        ]
+      } 
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -1,
+    "offsetY": -1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "prismarine"
+        ]
+      } 
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -1,
+    "offsetY": -1,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "prismarine"
+        ]
+      } 
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -1,
+    "offsetY": -1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "prismarine"
+        ]
+      } 
+    }
+  },
+  {
+    "condition": "minecraft:weather_check",
+    "raining": true
+  }  
+]
